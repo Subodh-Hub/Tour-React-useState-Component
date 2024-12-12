@@ -1,0 +1,21 @@
+header {
+  margin-top: 85px;
+}
+h1 {
+  margin: 0 auto 10px;
+  font-weight: 500;
+  font-size: 2.5rem;
+  position: relative;
+  max-width: max-content;
+  padding: 15px;
+  color: #0f172a;
+}
+h1::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 60%;
+  background-color: #10b981;
+  bottom: 0;
+  left: 20%;
+}
